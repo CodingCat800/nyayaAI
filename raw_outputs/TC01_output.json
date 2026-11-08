@@ -1,0 +1,70 @@
+{
+  "test_case": {
+    "id": "TC01",
+    "name": "Refund marked initiated but not credited",
+    "narrative": "I ordered headphones from ShopKart on 3 October 2026 for INR 2499. I returned them on 8 October. The app says refund initiated on 10 October but it has not reached my UPI account. Support ticket SK-9912 was closed without explanation.",
+    "facts": {
+      "seller": "ShopKart",
+      "order_id": "SK-9912",
+      "purchase_date": "3 October 2026",
+      "refund_requested_date": "8 October 2026",
+      "amount": "INR 2,499",
+      "refund_reason": "Returned item",
+      "payment_method": "UPI",
+      "state": "Kerala"
+    }
+  },
+  "analysis_output": {
+    "summary": "The user reports an online purchase/service refund that has not been received. This is a preliminary summary, not a legal conclusion.",
+    "missing_facts": [],
+    "timeline": [
+      "Purchase date: 3 October 2026",
+      "Refund requested: 8 October 2026",
+      "Seller/platform: ShopKart",
+      "Amount: INR 2,499",
+      "Order ID: SK-9912"
+    ],
+    "evidence": [
+      "Order confirmation/invoice",
+      "Payment receipt or UPI/card/bank transaction reference",
+      "Cancellation/return confirmation",
+      "Refund request acknowledgement and promised timeline",
+      "Emails, chats, tickets and seller responses",
+      "Bank statement showing whether refund was credited"
+    ],
+    "next_steps": [
+      "Contact the seller/platform in writing and ask for status, reason for delay, and expected credit date.",
+      "Preserve order, payment, return and support records.",
+      "If unresolved, consider registering a grievance with the National Consumer Helpline.",
+      "If still unresolved, seek advice on the appropriate Consumer Commission."
+    ],
+    "safety_flag": false,
+    "model_status": "Offline fallback used; no LLM endpoint configured.",
+    "official_guidance": [
+      "Write to the seller/platform asking for the refund status, reason for delay, and expected credit date. Keep the response.",
+      "If unresolved, consider the National Consumer Helpline (NCH), a pre-litigation grievance channel. It does not guarantee a remedy.",
+      "If still unresolved, consider advice on approaching the appropriate Consumer Commission. Forum, jurisdiction, fees, limitation, and procedure depend on the facts and current rules."
+    ],
+    "legal_sources": [
+      {
+        "title": "Consumer Protection Act, 2019 (India Code)",
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/15256/1/eng201935.pdf"
+      },
+      {
+        "title": "Consumer Protection (E-Commerce) Rules, 2020",
+        "url": "https://consumeraffairs.nic.in/sites/default/files/E%20commerce%20rules_0.pdf"
+      },
+      {
+        "title": "National Consumer Helpline \u2014 process",
+        "url": "https://consumerhelpline.gov.in/public/index.php/about"
+      },
+      {
+        "title": "National Consumer Helpline \u2014 contact",
+        "url": "https://consumerhelpline.gov.in/public/contact"
+      }
+    ],
+    "disclaimer": "General information and document assistance only; not legal advice or representation. Documents and seller records have not been verified. For urgent, complex, high-value, limitation-sensitive, or disputed matters, consult a qualified advocate."
+  },
+  "complaint_draft": "To,\nThe Grievance Officer / Customer Support Team\nShopKart\n\nSubject: Request for resolution of pending refund \u2014 Order SK-9912\n\nDear Sir/Madam,\n\nI am Sample User, residing at Kochi, Kerala. I placed an online order/booking with your platform.\n\nOrder/booking ID: SK-9912\nDate of purchase: 3 October 2026\nAmount paid: INR 2,499\nDate refund was requested: 8 October 2026\n\nIssue:\nI ordered headphones from ShopKart on 3 October 2026 for INR 2499. I returned them on 8 October. The app says refund initiated on 10 October but it has not reached my UPI account. Support ticket SK-9912 was closed without explanation.\n\nI request that you: Please process the pending refund of INR 2,499 and confirm the expected credit date.\n\nPlease provide a written update explaining the status, reason for any delay, and expected date of resolution. I request a response within 7 days of receiving this message. This is a proposed communication timeline, not a statutory deadline.\n\nI have retained relevant order, payment, and communication records.\n\nRegards,\nSample User\nKochi, Kerala\n",
+  "run_mode": "deterministic offline fallback"
+}
